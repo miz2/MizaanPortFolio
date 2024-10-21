@@ -20,7 +20,7 @@
     "imageSrc": "projects/portfolio.png",
     "description": "Welcome to my portfolio! Dive into my digital journey, where you'll find a collection of captivating projects and innovative solutions",
     "skills": ["HTML","CSS","JS"],
-    "demo": "https://drummachinemiz.netlify.app/",
-    "source": "https://github.com/miz2/DrumMachine"
+    "demo": "",
+    "source": "https://github.com/miz2/MizaanPortFolio"
   }
 ]
