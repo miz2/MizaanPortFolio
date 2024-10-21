@@ -10,7 +10,7 @@ export const Contact = () => {
       </div>
 
       <div className={styles.resumeSection}>
-        <a href="/public/Resume.pdf" download="Resume">
+        <a href="/Resume.pdf" download="Resume">
           Download Resume
         </a>
       </div>
