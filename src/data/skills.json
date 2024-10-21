@@ -1,30 +1,75 @@
 [
   {
-    "title": "HTML",
+    "title": "HTML5",
     "imageSrc": "skills/html.png"
   },
   {
-    "title": "CSS",
+    "title": "CSS3",
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "React",
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png" 
+  },
+  {
+    "title": "React.js",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "Node.js",
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "Express.js",
+    "imageSrc": "skills/express.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png" 
   },
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/github.png" 
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "YAML",
+    "imageSrc": "skills/yaml.png" 
+  },
+  {
+    "title": " DSA with Java",
+    "imageSrc": "skills/java.png" 
+  },
+  
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png" 
+  },
+  {
+    "title": " Java",
+    "imageSrc": "skills/java.png" 
+  },
+  {
+    "title": "Kubernetes",
+    "imageSrc": "skills/kubernetes.png" 
+  },
+  {
+    "title": "Azure",
+    "imageSrc": "skills/azure.jpeg" 
+  },
+  {
+    "title": "Jenkins",
+    "imageSrc": "skills/jenkins.jpg" 
   }
 ]

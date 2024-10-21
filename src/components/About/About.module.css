@@ -19,30 +19,17 @@
   text-transform: uppercase;
 }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.aboutImage {
-  width: 35%;
-}
-
-.aboutItems {
+.textContent {
   color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+  margin-top: 20px;
 }
 
-.aboutItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
-  list-style: none;
-  padding: 25px;
+.textContent p {
+  font-size: 20px; /* Adjust font size for readability */
+  line-height: 1.5; /* Improve readability */
+  margin-bottom: 30px; /* Space between paragraphs */
+  padding-right: 50px; /* Space for icon on the right */
+  position: relative; /* Positioning for icon */
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -53,17 +40,22 @@
   transition: 0.4s;
 }
 
-.aboutItem:hover {
+.textContent p:hover {
   background-size: 100% 100%;
 }
 
-.aboutItem h3 {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.aboutItem p {
-  font-size: 25px;
+.textContent p::after {
+  content: " "; /* Replace with actual icon or use an image */
+  display: block;
+  width: 24px; /* Size of the icon */
+  height: 24px; /* Size of the icon */
+  background-image: url('/path/to/your/icon.png'); /* Path to your icon image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 10px; /* Position icon towards right */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media screen and (max-width: 830px) {
@@ -73,20 +65,9 @@
     padding-right: 0;
   }
 
-  .content {
-    flex-direction: column;
-  }
-
-  .aboutImage {
-    display: none;
-  }
-
-  .aboutItems {
-    margin-top: 29px;
-  }
-
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+  .textContent p::after {
+    right: 5px; /* Adjust position for smaller screens */
+    width: 20px; /* Adjust icon size */
+    height: 20px; /* Adjust icon size */
   }
 }

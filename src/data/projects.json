@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "The Cocktail Store",
+    "imageSrc": "projects/CockTail.png",
+    "description": "Find your favorite cocktail details and explore a wide range of cocktail recipes. This application allows users to search for various cocktails, view detailed information about each, and discover new favorites. Whether you're a cocktail enthusiast or a casual drinker, this app provides a comprehensive cocktail database at your fingertips.",
+    "skills": ["React", "Api Fetching"],
+    "demo": "https://cocktailstore.onrender.com/",
+    "source": "https://github.com/miz2/TheCockTailStore"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "MoneyMap",
+    "imageSrc": "projects/FinanceTracker.png",
+    "description": "Money Map Finance Tracker is a personal finance management tool that helps you track expenses, manage investments, and visualize spending trends. Stay organized with a user-friendly dashboard and gain insights into your financial habits. Explore the project live or check out the source code on GitHub. ",
+    "skills": ["React", "CSS","Node JS","Express Js","MongoDB"],
+    "demo": "https://moneymap-frontend.onrender.com/",
+    "source": "https://github.com/miz2/MoneyMap"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "PortFolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "Welcome to my portfolio! Dive into my digital journey, where you'll find a collection of captivating projects and innovative solutions",
+    "skills": ["HTML","CSS","JS"],
+    "demo": "https://drummachinemiz.netlify.app/",
+    "source": "https://github.com/miz2/DrumMachine"
   }
 ]

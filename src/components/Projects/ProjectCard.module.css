@@ -3,59 +3,75 @@
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #3a6eb2 0%, #1b2b4b 100%);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); /* Softer, more natural shadow */
+  padding: 24px;
+  max-width: 360px;
+  height: 790px; /* Balanced fixed height */
+  box-sizing: border-box;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  overflow: hidden; /* Ensure contents don’t overflow */
+}
+
+.container:hover {
+  transform: translateY(-12px); /* More pronounced lift */
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5); /* Bolder shadow on hover */
 }
 
 .image {
-  margin-bottom: 26px;
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for image */
 }
 
 .title {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
+  margin-bottom: 12px;
+  color: #f8f8f8; /* Lightened color for better contrast */
+  text-align: center;
+  letter-spacing: 0.5px; /* Slight letter-spacing for elegance */
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
-}
-
-.skills {
-  width: 100%;
-  margin-top: 14px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 6px;
-  list-style: none;
-}
-
-.skill {
-  font-size: 25px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
+  color: #cfd8e3; /* Softer, muted color for easy reading */
+  margin-bottom: 24px;
+  flex: 1;
+  text-align: justify;
+  line-height: 1.6; /* Improved readability */
 }
 
 .links {
   width: 100%;
-  margin-top: 26px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* Balanced spacing for links */
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Subtle divider */
 }
 
 .link {
   text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
+  color: #ffffff;
+  font-size: 16px;
   font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
+  border-radius: 25px;
+  background: #536aa4; /* Softer background color */
+  padding: 10px 20px;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); /* Soft shadow on buttons */
+}
+
+.link:hover {
+  background: #ffffff; /* Invert background and text color on hover */
+  color: #536aa4;
+  transform: scale(1.05); /* Slight scaling on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Elevated shadow on hover */
 }
