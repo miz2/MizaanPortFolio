@@ -8,10 +8,10 @@ export const About = () => {
       <div className={styles.textContent}>
         <p>
           I am a proactive developer who continuously engages in personal
-          projects and self-learning initiatives to enhance my skills. Although
-          I haven't had formal work experience yet, I have developed various web
-          applications and experimented with different technologies to deepen my
-          knowledge and improve my proficiency.
+          projects and self-learning initiatives to enhance my skills. Currently, 
+          I am working as an <strong>Associate Automation Engineer</strong> at <strong>ANM India Pvt Ltd</strong>, 
+          where I focus on automating business processes using <strong>Automation Anywhere</strong> and other RPA tools 
+          to improve efficiency and reduce manual effort.
         </p>
         <p>
           My journey as a full-stack developer is fueled by my dedication to
@@ -20,33 +20,33 @@ export const About = () => {
           solve complex problems, and collaborate effectively within a team.
         </p>
         <p>
-          My expertise in HTML5, CSS3, and JavaScript allows me to build
+          My expertise in <strong>HTML5, CSS3, and JavaScript</strong> allows me to build
           responsive and interactive websites, while my knowledge of back-end
-          technologies like Node.js, Express.js, and databases such as MongoDB
-          and MySQL enables me to create robust full-stack applications.
-          Additionally, my familiarity with tools like Git, Docker, and various
+          technologies like <strong>Node.js, Express.js</strong>, and databases such as
+          <strong>MongoDB and MySQL</strong> enables me to create robust full-stack applications.
+          Additionally, my familiarity with tools like <strong>Git, Docker</strong>, and various
           JavaScript libraries ensures that I can manage and streamline
           development workflows efficiently.
         </p>
         <p>
-          I also have experience with React for building dynamic user interfaces
-          and have worked with Jenkins for continuous integration and delivery
-          pipelines. My proficiency in Linux and shell scripting helps me automate
+          I also have experience with <strong>React</strong> for building dynamic user interfaces
+          and have worked with <strong>Jenkins</strong> for continuous integration and delivery
+          pipelines. My proficiency in <strong>Linux and shell scripting</strong> helps me automate
           tasks and manage systems effectively. Furthermore, my knowledge of
-          Kubernetes and Docker enables me to deploy and manage containerized
+          <strong>Kubernetes and Docker</strong> enables me to deploy and manage containerized
           applications in a scalable manner. I am also gaining foundational
-          knowledge in Azure to explore cloud-based solutions and services.
+          knowledge in <strong>Azure</strong> to explore cloud-based solutions and services.
         </p>
         <p>
-          Furthermore, my skills in Data Structures and Algorithms (DSA) with
-          Java empower me to write efficient and optimized code, making my
+          Additionally, my skills in <strong>Data Structures and Algorithms (DSA)</strong> with
+          <strong>Java</strong> empower me to write efficient and optimized code, making my
           applications not only functional but also highly performant. This
           knowledge is crucial in solving complex problems and improving the
           overall quality of the software I develop.
         </p>
         <p>
-          In addition to technical skills, I value the importance of
-          communication, collaboration, and leadership in the software
+          Beyond technical skills, I value the importance of
+          <strong>communication, collaboration, and leadership</strong> in the software
           development process. I enjoy working in dynamic team environments
           where sharing knowledge and ideas leads to innovative solutions and
           continuous improvement.

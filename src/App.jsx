@@ -9,6 +9,7 @@ import CertificateSlider from "./components/CertificateSlider";
 import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "./components/Footer/Footer";
+import Work from "./components/Work/Work";
 // Scroll to hash anchor when location changes
 const ScrollToHash = () => {
   const location = useLocation();
@@ -30,7 +31,7 @@ function App() {
   return (
     <div className={styles.App}>
       <Router>
-        <ScrollToHash /> {/* Ensure this is inside Router */}
+        <ScrollToHash /> 
         <Navbar />
         <Routes>
           <Route
@@ -41,6 +42,7 @@ function App() {
                 <About />
                 <Experience />
                 <Projects />
+                <Work/>
                 <Contact />
                 <Footer/>
               </>

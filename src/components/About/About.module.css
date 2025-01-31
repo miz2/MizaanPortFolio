@@ -2,72 +2,92 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
+  background: linear-gradient(
+    to right,
+    rgba(20, 20, 20, 0.8),
+    rgba(30, 30, 30, 0.7)
+  );
+  border-radius: 20px;
+  padding: 60px;
+  margin: 100px auto;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 80%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.02);
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .textContent {
   color: var(--color-text);
-  margin-top: 20px;
+  margin-top: 25px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .textContent p {
-  font-size: 20px; /* Adjust font size for readability */
-  line-height: 1.5; /* Improve readability */
-  margin-bottom: 30px; /* Space between paragraphs */
-  padding-right: 50px; /* Space for icon on the right */
-  position: relative; /* Positioning for icon */
-  background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
+  font-size: 19px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  padding: 15px;
+  position: relative;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: background 0.3s ease-in-out, transform 0.3s;
 }
 
 .textContent p:hover {
-  background-size: 100% 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
 }
 
-.textContent p::after {
-  content: " "; /* Replace with actual icon or use an image */
-  display: block;
-  width: 24px; /* Size of the icon */
-  height: 24px; /* Size of the icon */
-  background-image: url('/path/to/your/icon.png'); /* Path to your icon image */
-  background-size: contain;
-  background-repeat: no-repeat;
+.textContent p::before {
+  content: "✦"; /* You can replace with an actual icon */
+  font-size: 18px;
+  color: var(--primary-color);
   position: absolute;
-  right: 10px; /* Position icon towards right */
+  left: -20px;
   top: 50%;
   transform: translateY(-50%);
+  transition: color 0.3s;
 }
 
-@media screen and (max-width: 830px) {
+.textContent p:hover::before {
+  color: var(--accent-color);
+}
+
+@media screen and (max-width: 900px) {
   .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 90%;
+    padding: 40px;
   }
 
-  .textContent p::after {
-    right: 5px; /* Adjust position for smaller screens */
-    width: 20px; /* Adjust icon size */
-    height: 20px; /* Adjust icon size */
+  .title {
+    font-size: 30px;
+  }
+
+  .textContent p {
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .textContent p::before {
+    font-size: 16px;
+    left: -15px;
   }
 }

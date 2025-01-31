@@ -1,0 +1,15 @@
+{
+  "portfolio": [
+    {
+      "company": "ANM India Pvt LTD",
+      "role": "RPA",
+      "designation": "Associate Automation Engineer",
+      "logo": {
+        "src": "/assets/company/anm.png",
+        "alt": "ANM India Pvt LTD Logo"
+      },
+      "joinDate": "January 2025",
+      "description": "Automating business processes using Automation Anywhere and other RPA tools to enhance efficiency, minimize manual effort, and optimize workflows."
+    }
+  ]
+}
