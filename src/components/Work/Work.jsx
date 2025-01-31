@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Work.module.css"; // Correct way to import CSS Modules
 import data from "../../data/experience.json"; // Import JSON data
 
+import { getImageUrl } from "../../utils";
+
 const Work = () => {
   const portfolioData = data.portfolio[0];
 
@@ -11,10 +13,11 @@ const Work = () => {
 
       <div className={styles.portfolioContainer}>
         <img
-          src={portfolioData.logo.src} 
+          src={getImageUrl(portfolioData.logo.imageSrc)}
           alt={portfolioData.logo.alt}
           className={styles.portfolioLogo}
         />
+
         <h2 className={styles.portfolioCompany}>{portfolioData.company}</h2>
         <h3 className={styles.portfolioRole}>{portfolioData.role}</h3>
         <p className={styles.portfolioDesignation}>{portfolioData.designation}</p>
